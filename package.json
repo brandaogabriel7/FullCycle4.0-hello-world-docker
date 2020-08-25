@@ -1,0 +1,25 @@
+{
+    "name": "full-cycle-4-hello-world-docker",
+    "version": "1.0.0",
+    "description": "First challenge from Full Cycle 4.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandaogabriel7/full-cycle-4-hello-world-docker.git"
+    },
+    "keywords": [
+        "js",
+        "express",
+        "docker",
+        "full-cycle"
+    ],
+    "author": "brandaogabriel7",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/brandaogabriel7/full-cycle-4-hello-world-docker/issues"
+    },
+    "homepage": "https://github.com/brandaogabriel7/full-cycle-4-hello-world-docker#readme"
+}
