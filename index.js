@@ -1,15 +1,16 @@
 const express = require('express');
-const app = express();
-const port = 8080;
 
-const message = 'Eu sou Full Cycle';
+const PORT = 8080;
+const HOST = '0.0.0.0';
+
+const MESSAGE = 'Eu sou Full Cycle';
+
+const app = express();
 
 app.get('/', (req, res) => {
-    res.send(message);
+    res.send(MESSAGE);
 });
 
-app.listen(port, () => {
-    console.log(
-        `Hello World with Docker listening at http://localhost:${port}`
-    );
+app.listen(PORT, HOST, () => {
+    console.log(`Hello World with Docker listening at http://${HOST}:${PORT}`);
 });
